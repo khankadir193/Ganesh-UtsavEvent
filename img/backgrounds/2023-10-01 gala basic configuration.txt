@@ -1,0 +1,17 @@
+                    #************************This is the test server configuration******************************#
+1. eventGifts: 
+	white horse, golden lion, garden flower
+
+2. Weekly time configuration
+	[{"index":1,"startTime":"2023-09-13 00:00:00","endTime":"2023-09-15 00:00:00"},{"index":2,"startTime":"2023-09-15 00:00:00","endTime":"2023-09-16 00:00:00"},{"index":3,"startTime":"2023-09-16 00:00:00","endTime":"2023-09-17 00:00:00"},{"index":4,"startTime":"2023-09-17 00:00:00","endTime":"2023-09-18 00:00:00"},{"index":5,"startTime":"2023-09-18 00:00:00","endTime":"2023-09-19 00:00:00"},{"index":6,"startTime":"2023-09-19 00:00:00","endTime":"2023-09-20 00:00:00"},{"index":6,"startTime":"2023-09-20 00:00:00","endTime":"2023-09-21 00:00:00"},{"index":6,"startTime":"2023-09-21 00:00:00","endTime":"2023-09-22 00:00:00"},{"index":6,"startTime":"2023-09-22 00:00:00","endTime":"2023-09-23 00:00:00"}]	
+3. basic time configuration
+	joinPlanetStartTime=2023-09-10 00:00:00
+	joinPlanetEndTime=2023-09-20 00:00:00
+	match1v1StartTime=2023-09-15 00:00:00
+	match1v1EndTime=2023-09-20 00:00:00
+	matchFinalStartTime=2023-09-21 00:00:00
+	matchFinalEndTime=2023-09-24 00:00:00
+4. 1v1 match schedule
+	[{"matchId":1,"startTime":"2023-09-15 00:00:00","endTime":"2023-09-16 00:00:00"},{"matchId":2,"startTime":"2023-09-16 00:00:00","endTime":"2023-09-17 00:00:00"},{"matchId":3,"startTime":"2023-09-17 00:00:00","endTime":"2023-09-18 00:00:00"},{"matchId":4,"startTime":"2023-09-18 00:00:00","endTime":"2023-09-19 00:00:00"},{"matchId":5,"startTime":"2023-09-19 00:00:00","endTime":"2023-09-20 00:00:00"}]
+5. final match schedule
+	[{"matchId":1,"startTime":"2023-09-21 00:00:00","endTime":"2023-09-22 00:00:00"},{"matchId":2,"startTime":"2023-09-22 00:00:00","endTime":"2023-09-23 00:00:00"},{"matchId":3,"startTime":"2023-09-23 00:00:00","endTime":"2023-09-24 00:00:00"}]
