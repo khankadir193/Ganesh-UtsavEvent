@@ -312,13 +312,15 @@
 
 .btn-submitt,
 .btn-unlock1 {
+    background: url(../img/btn/Unlock-btn.png) center/100% 100% no-repeat;
     display: block;
     margin: 2vw auto;
     border-radius: 223vw;
-    background: var(--White);
+    /* background: var(--White); */
     box-shadow: inset 0px 0px 8px 1px #000;
     color: #4e1856;
     width: 35%;
+    height: 8vw;
     padding: 1vw;
     font-size: var(--font5);
     font-weight: bold;
