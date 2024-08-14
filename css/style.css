@@ -1244,7 +1244,7 @@ border-radius: 223vw; */
 .prev5 {
     cursor: pointer;
     position: absolute;
-    top: 574vw;
+    top: 531vw;
     width: 13vw;
     /* height: 3px; */
     margin-top: -11vw;
@@ -1376,7 +1376,7 @@ border-radius: 223vw; */
     display: block;
     margin: 0vw auto 1vw;
     padding: 7vw;
-    background: url('../img/backgrounds/Rewardsbg.gif') center/100% 100% no-repeat;
+    background: url('../img/backgrounds/Rewardsbg.png') center/100% 100% no-repeat;
 }
 
 .rewards-img-1 {
