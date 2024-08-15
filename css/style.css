@@ -1042,6 +1042,34 @@ border-radius: 223vw; */
     background-color: #b53b15;
 }
 
+.unlocktextBox{
+    background: url(../img/beanspottextBox2.png) center/100% 100% no-repeat;
+    /*width: calc(100% - 4vw);*/
+    width: 90%;
+    border-radius: 0;
+    padding: 3vw 2vw 3.5vw;
+    line-height: 1.5;
+    margin: 3vw auto;
+    color: white;
+    border: 2px solid yellow;
+    border-radius: 6vw;
+    background-color: #b53b15;
+}
+
+.signIntextBox{
+    background: url(../img/BeanspottextBox.png) center/100% 100% no-repeat;
+    /*width: calc(100% - 4vw);*/
+    width: 90%;
+    border-radius: 0;
+    padding: 2vw 2vw 1.5vw;
+    line-height: 1.5;
+    margin: 3vw auto;
+    color: white;
+    border: 2px solid yellow;
+    border-radius: 6vw;
+    background-color: #b53b15;
+}
+
 .top-text {
     /*background: var(--gradientBg);*/
     background: url(../img/BeanspottextBox.png) center/100% 100% no-repeat;
@@ -1594,6 +1622,8 @@ border-radius: 223vw; */
 .unlockBg {
     background: url('../img/backgrounds/unlocktodaysBg.png') center/100% 100% no-repeat !important;
     padding: 7vw 0vw;
+    position: relative;
+    top: 2vw;
 }
 
 .guideImg{
