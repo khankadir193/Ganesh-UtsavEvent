@@ -87,7 +87,7 @@
 
 .reward-text {
     /*background: var(--redBtn);*/
-    background: #4b1468;
+    background: #7e8780;
     width: calc(60% - 0vw);
     text-align: center;
     padding: 1vw 0;
@@ -1035,7 +1035,7 @@ border-radius: 223vw; */
     border-radius: 0;
     padding: 3vw 2vw 3.5vw;
     line-height: 1.5;
-    margin: -4vw auto;
+    margin: 3vw auto;
     color: white;
     border: 2px solid yellow;
     border-radius: 6vw;
@@ -1050,7 +1050,7 @@ border-radius: 223vw; */
     border-radius: 0;
     padding: 3vw 2vw 3.5vw;
     line-height: 1.5;
-    margin: 6vw auto;
+    margin: -4vw auto;
     color: white;
     border: 2px solid yellow;
     border-radius: 6vw;
@@ -1576,6 +1576,7 @@ border-radius: 223vw; */
 .pot_count_outer{
     background: url('../img/backgrounds/beanspotBox.png') center/100% 100% no-repeat !important;
     padding: 35vw 0vw 35vw;
+    margin: 3vw;
 }
 
 .pot-talent-outer{
