@@ -98,17 +98,32 @@ function rankingAnimalOuter(evt, contentDiv) {
 }
 // hourly rank change
 function hourlyRankChange(evt, contentDiv) {
+    // Get all buttons and content divs
     var tabLinks = document.getElementsByClassName('btn-hourly');
     var tabContent = document.getElementsByClassName('content-hourly-rank');
+
+    // Remove 'active-hourly' or 'active-prev' class from all buttons
     for (var i = 0; i < tabLinks.length; i++) {
-        tabLinks[i].className = tabLinks[i].className.replace(" active-hourly", "");
+        tabLinks[i].classList.remove('active-hourly', 'active-prev');
     }
+
+    // Hide all content divs
     for (var j = 0; j < tabContent.length; j++) {
         tabContent[j].style.display = "none";
     }
-    $('#' + contentDiv).show();
-    evt.currentTarget.className += " active-hourly";
+
+    // Add the appropriate class to the clicked button
+    if (contentDiv === 'curHourRank') {
+        evt.currentTarget.classList.add("active-hourly");
+    } else if (contentDiv === 'prevHourRank') {
+        evt.currentTarget.classList.add("active-prev");
+    }
+
+    // Show the clicked content div and hide the other
+    document.getElementById(contentDiv).style.display = "block";
 }
+
+
 
 // reward change
 function rewardChangeOuter(evt, contentDiv) {

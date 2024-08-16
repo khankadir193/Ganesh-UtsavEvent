@@ -138,6 +138,11 @@
     border-radius: 223vw;
 }
 
+.bgImg{
+    background: url('../img/btn/Current-Previous-btn-bg.png') center/100% 100% no-repeat;
+
+}
+
 .tab-content,
 .content-inner-tab {
     margin: 5vw auto 0;

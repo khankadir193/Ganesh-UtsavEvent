@@ -269,7 +269,22 @@
     filter: grayscale(0);
 }
 
-.btn-hourly,
+.btn-hourly{
+    opacity: 0.7;
+    border-radius: 0;
+    padding: 2vw 0vw 2vw;
+    width: 90%;
+    display: block;
+    margin: auto;
+    color: var(--btnInactiveText);
+    /* background: url('../img/backgrounds/Current-Previous-Unselect-btn.png') center/100% 100%; */
+    font-weight: var(--bold);
+    letter-spacing: 1px;
+    font-size: var(--font4);
+    /* position: relative; */
+    z-index: 1;
+}
+
 .btn-game-rank,
 .talent-current {
     opacity: 0.7;
@@ -289,12 +304,24 @@
 
 .active-hourly {
     opacity: 1;
-    background: url('../img/backgrounds/Current-Previous-Select-btn.png') center/100% 100% no-repeat !important;
+    background: url('../img/btn/current-btn.png') center/100% 100% no-repeat !important;
+    /* background: url('../img/backgrounds/Current-Previous-Select-btn.png') center/100% 100% no-repeat !important; */
     /* background: url(../img/backgrounds/Submit-button.png) center/100% 100% no-repeat !important; */
     border: none;
     box-shadow: none;
     color: var(--btnActiveText);
     /* font-size: var(--font5) !important; */
+}
+
+.active-prev{
+    opacity: 1;
+    background: url('../img/btn/previous-btn.png') center/100% 100% no-repeat !important;
+    /* background: url('../img/backgrounds/Current-Previous-Select-btn.png') center/100% 100% no-repeat !important; */
+    /* background: url(../img/backgrounds/Submit-button.png) center/100% 100% no-repeat !important; */
+    border: none;
+    box-shadow: none;
+    color: var(--btnActiveText);
+
 }
 
 .btn-unlock {
