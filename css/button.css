@@ -310,6 +310,7 @@
     border: none;
     box-shadow: none;
     color: var(--btnActiveText);
+    height: 5vh;
     /* font-size: var(--font5) !important; */
 }
 
@@ -321,6 +322,7 @@
     border: none;
     box-shadow: none;
     color: var(--btnActiveText);
+    height: 5vh;
 
 }
 

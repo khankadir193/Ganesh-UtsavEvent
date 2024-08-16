@@ -456,7 +456,7 @@ function gameRankApi1(local) {
         $.ajax({
             type: 'GET',
             async: true,
-            url: host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20230918_gane&pageCount=20&pageIndex=1&rankIndex=1&rankType=1',
+            url: host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20240906_ganesh&pageCount=20&pageIndex=1&rankIndex=1&rankType=1',
             cache: false,
             error: function(xhr, ajaxOptions, thrownError) {
                 // alert(xhr.responseText);
@@ -796,7 +796,7 @@ function gameRankApi3(local) {
         $.ajax({
             type: 'GET',
             async: true,
-            url: host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20230918_gane&pageCount=20&pageIndex=1&rankIndex=4&rankType=3&isBefore=false',
+            url: host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20240906_ganesh&pageCount=20&pageIndex=1&rankIndex=4&rankType=3&isBefore=false',
             cache: false,
             error: function(xhr, ajaxOptions, thrownError) {
                 // alert(xhr.responseText);
@@ -908,13 +908,13 @@ function rankingDisplay3(curData, index) {
 }
 //  game rank 4
 function gameRankApi4(local) {
-    console.log('oprev win'+ host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20230918_gane&pageCount=20&pageIndex=1&rankIndex=4&rankType=3&isBefore=true',
+    console.log('oprev win'+ host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20240906_ganesh&pageCount=20&pageIndex=1&rankIndex=4&rankType=3&isBefore=true',
             )
     if (local == 0) {
         $.ajax({
             type: 'GET',
             async: true,
-            url: host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20230918_gane&pageCount=20&pageIndex=1&rankIndex=4&rankType=3&isBefore=true',
+            url: host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20240906_ganesh&pageCount=20&pageIndex=1&rankIndex=4&rankType=3&isBefore=true',
             
             cache: false,
             error: function(xhr, ajaxOptions, thrownError) {
@@ -1033,7 +1033,7 @@ function gameRankApi5(local) {
         $.ajax({
             type: 'GET',
             async: true,
-            url: host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20230918_gane&pageCount=20&pageIndex=1&rankIndex=3&rankType=3&isBefore=true',
+            url: host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20240906_ganesh&pageCount=20&pageIndex=1&rankIndex=3&rankType=3&isBefore=true',
             cache: false,
             error: function(xhr, ajaxOptions, thrownError) {
                 // alert(xhr.responseText);
@@ -1146,7 +1146,7 @@ function rewarRankAnimal(local) {
         $.ajax({
             type: 'GET',
             async: true,
-            url: host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20230918_gane&pageCount=20&pageIndex=1&rankIndex=3&rankType=3&isBefore=false',
+            url: host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20240906_ganesh&pageCount=20&pageIndex=1&rankIndex=3&rankType=3&isBefore=false',
             cache: false,
             error: function(xhr, ajaxOptions, thrownError) {
                 // alert(xhr.responseText);
@@ -1277,7 +1277,7 @@ function eidiStoreApi(local) {
         $.ajax({
             type: 'GET',
             async: true,
-            url: host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20230918_gane&pageCount=20&pageIndex=1&rankIndex=2&rankType=1',
+            url: host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20240906_ganesh&pageCount=20&pageIndex=1&rankIndex=2&rankType=1',
             cache: false,
             error: function(xhr, ajaxOptions, thrownError) {
                 // alert(xhr.responseText);
@@ -1432,12 +1432,12 @@ function rankingDisplayTalentTask(curData, index) {
 }
 // talent Rank 
 function talentRankOverallApi(local) {
-    console.log("ok"+host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20230918_gane&pageCount=20&pageIndex=1&rankIndex=5&rankType=2');
+    console.log("ok"+host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20240906_ganesh&pageCount=20&pageIndex=1&rankIndex=5&rankType=2');
     if (local == 0) {
         $.ajax({
             type: 'GET',
             async: true,
-            url: host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20230918_gane&pageCount=20&pageIndex=1&rankIndex=5&rankType=2',
+            url: host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20240906_ganesh&pageCount=20&pageIndex=1&rankIndex=5&rankType=2',
             
             cache: false,
             error: function(xhr, ajaxOptions, thrownError) {
@@ -1690,7 +1690,7 @@ function gifterRankOverallApi(local) {
         $.ajax({
             type: 'GET',
             async: true,
-            url: host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20230918_gane&pageCount=20&pageIndex=1&rankIndex=6&rankType=2',
+            url: host + '/api/activity/eventShow/getModulePushRankV2?eventDesc=20240906_ganesh&pageCount=20&pageIndex=1&rankIndex=6&rankType=2',
             cache: false,
             error: function(xhr, ajaxOptions, thrownError) {
                 // alert(xhr.responseText);
